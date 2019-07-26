@@ -25,29 +25,25 @@
 </head>
 
 <body>
-
-    <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myMenu">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span> 
-            </button>
-            <a class="navbar-brand" href="#">Menu</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myMenu">
-            <ul class="nav navbar-nav">
-                <li data-menuanchor="header" class="active"><a href="#header">Introduction</a></li>
-                <li data-menuanchor="firstVis"><a href="#firstVis">Overview</a></li>
-                <li data-menuanchor="secondVis"><a href="#secondVis">Food Imports by Geography</a></li>
-                <li data-menuanchor="thirdVis"><a href="#thirdVis">Detailed Food Imports</a></li>
-                <li data-menuanchor="fourthVis"><a href="#fourthVis">Key Insights</a></li>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="#header">US Food Imports</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#data">Our Data</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#overview">Overview </a>
+                </li>
             </ul>
         </div>
-    </div>
-    </nav> -->
-
+    </nav>
     <div id="fullpage">
         <div class="section" data-anchor="header">
             <div class="container">
@@ -74,7 +70,7 @@
             </div>
         </div>
 
-        <div class="section" data-anchor="catProduct">
+        <div class="section" data-anchor="data">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -126,7 +122,7 @@
             </div>
         </div> 
         
-        <div class="section" data-anchor="firstVis">
+        <div class="section" data-anchor="overview">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -604,8 +600,8 @@
         var myFullpage = new fullpage('#fullpage', {
             //options here
             lazyLoad: true,
-            anchors: ['header', 'catProduct', 'firstVis', 'secondVis', 'thirdVis', 'fourthVis'],
-            // menu: '#myMenu',
+            anchors: ['header', 'data', 'overview', 'secondVis', 'thirdVis', 'fourthVis'],
+            menu: '#menu',
             autoScrolling: true,
             scrollHorizontally: true,
             scrollBar: true,
