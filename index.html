@@ -27,7 +27,8 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <a class="navbar-brand" href="#header">US Food Imports</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+            aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="menu">
@@ -40,17 +41,18 @@
                 </li>
                 <!-- Dropdown -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Visualizations</a>
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Visualizations</a>
                     <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#overview">Overview of Food Imports</a>
-                        <a class="dropdown-item" href="#secondVis">Annual Food Imports by Geography</a>
-                        <a class="dropdown-item" href="#thirdVis">Detailed Food Imports</a>
-                        <a class="dropdown-item" href="#fourthVis">Imports Trends</a>
-                        <a class="dropdown-item" href="#fifthVis">Forecasts</a>
+                        <a class="dropdown-item" href="#geography">Annual Food Imports by Geography</a>
+                        <a class="dropdown-item" href="#details">Detailed Food Imports</a>
+                        <a class="dropdown-item" href="#imports">Import Trends</a>
+                        <a class="dropdown-item" href="#forecasts">Forecasts</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#sixthVis">Insights</a>
+                    <a class="nav-link" href="#insights">Insights</a>
                 </li>
             </ul>
         </div>
@@ -88,47 +90,53 @@
                         <div style="height:100px; width:100%; clear:both;"></div>
                         <h3>Our Data</h3>
                         <p class="text-justify">
-                            The data is taken from USDA’s Global Agricultural Trade System (GATS), which allows users to query their dataset on several criteria.
-                            We have 20 years of import data comprising of over 135,000 records, with 47 food products and 254 trading partners.
-                            After pulling the data from GATS, we had to normalize our data and group our food products into categories so as to present an easier way of visualizing our data.
+                            The data is taken from USDA’s Global Agricultural Trade System (GATS), which allows users to
+                            query their dataset on several criteria.
+                            We have 20 years of import data comprising of over 135,000 records, with 47 food products
+                            and 254 trading partners.
+                            After pulling the data from GATS, we had to normalize our data and group our food products
+                            into categories so as to present an easier way of visualizing our data.
                             This visualization provides an idea of what products fall under which category.
                         </p>
                         <!-- Sartaj Imports -->
                         <div class='tableauPlaceholder' id='viz1564126470321' style='position: relative'>
-                                <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDA_15628016182280&#47;Dashboard4&#47;1_rss.png' style='border: none' /></a></noscript>
-                                <object class='tableauViz'  style='display:none;'>
-                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                                    <param name='embed_code_version' value='3' />
-                                    <param name='site_root' value='' />
-                                    <param name='name' value='EDA_15628016182280&#47;Dashboard4' />
-                                    <param name='tabs' value='no' />
-                                    <param name='toolbar' value='yes' />
-                                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDA_15628016182280&#47;Dashboard4&#47;1.png' />
-                                    <param name='animate_transition' value='yes' />
-                                    <param name='display_static_image' value='yes' />
-                                    <param name='display_spinner' value='yes' />
-                                    <param name='display_overlay' value='yes' />
-                                    <param name='display_count' value='yes' />
-                                    <param name='filter' value='publish=yes' />
-                                </object>
-                            </div>
-                            <script type='text/javascript'>
-                                var divElement = document.getElementById('viz1564126470321');
-                                var vizElement = divElement.getElementsByTagName('object')[0];
-                                if (divElement.offsetWidth > 800) {
-                                    vizElement.style.width = '1000px';
-                                    vizElement.style.height = '827px';
-                                } else if (divElement.offsetWidth > 500) {
-                                    vizElement.style.width = '1000px';
-                                    vizElement.style.height = '827px';
-                                } else {
-                                    vizElement.style.width = '100%';
-                                    vizElement.style.height = '727px';
-                                }
-                                var scriptElement = document.createElement('script');
-                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                                vizElement.parentNode.insertBefore(scriptElement, vizElement);
-                            </script>
+                            <noscript><a href='#'><img alt=' '
+                                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDA_15628016182280&#47;Dashboard4&#47;1_rss.png'
+                                        style='border: none' /></a></noscript>
+                            <object class='tableauViz' style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' />
+                                <param name='name' value='EDA_15628016182280&#47;Dashboard4' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image'
+                                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDA_15628016182280&#47;Dashboard4&#47;1.png' />
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='filter' value='publish=yes' />
+                            </object>
+                        </div>
+                        <script type='text/javascript'>
+                            var divElement = document.getElementById('viz1564126470321');
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            if (divElement.offsetWidth > 800) {
+                                vizElement.style.width = '1000px';
+                                vizElement.style.height = '827px';
+                            } else if (divElement.offsetWidth > 500) {
+                                vizElement.style.width = '1000px';
+                                vizElement.style.height = '827px';
+                            } else {
+                                vizElement.style.width = '100%';
+                                vizElement.style.height = '727px';
+                            }
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                        </script>
                     </div>
                 </div>
             </div>
@@ -141,19 +149,24 @@
                         <div style="height:100px; width:100%; clear:both;"></div>
                         <h3>Overview of Food Imports</h3>
                         <p class="text-justify">
-                            Given our data, we provide an overview of how imports of various food categories which are encoded by color, have changed over the past 20 years, from 1998 - 2018, both by quantity as well as value.
+                            Given our data, we provide an overview of how imports of various food categories which are
+                            encoded by color, have changed over the past 20 years, from 1998 - 2018, both by quantity as
+                            well as value.
                         </p>
                         <!-- Sartaj Imports -->
                         <div class='tableauPlaceholder' id='viz1564128748773' style='position: relative'>
-                            <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDA_15628016182280&#47;Dashboard6&#47;1_rss.png' style='border: none' /></a></noscript>
-                            <object class='tableauViz'  style='display:none;'>
+                            <noscript><a href='#'><img alt=' '
+                                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDA_15628016182280&#47;Dashboard6&#47;1_rss.png'
+                                        style='border: none' /></a></noscript>
+                            <object class='tableauViz' style='display:none;'>
                                 <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
                                 <param name='embed_code_version' value='3' />
                                 <param name='site_root' value='' />
                                 <param name='name' value='EDA_15628016182280&#47;Dashboard6' />
                                 <param name='tabs' value='no' />
                                 <param name='toolbar' value='yes' />
-                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDA_15628016182280&#47;Dashboard6&#47;1.png' />
+                                <param name='static_image'
+                                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDA_15628016182280&#47;Dashboard6&#47;1.png' />
                                 <param name='animate_transition' value='yes' />
                                 <param name='display_static_image' value='yes' />
                                 <param name='display_spinner' value='yes' />
@@ -179,54 +192,18 @@
                             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                             vizElement.parentNode.insertBefore(scriptElement, vizElement);
                         </script>
-                        <!-- Sartaj Bubbles -->
-                        <!-- <div class='tableauPlaceholder' id='viz1562802611620' style='position: relative'>
-                            <noscript><a href='#'><img alt=' '
-                                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDA_15628016182280&#47;Dashboard2&#47;1_rss.png'
-                                        style='border: none' /></a></noscript>
-                            <object class='tableauViz' style='display:none;'>
-                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                                <param name='embed_code_version' value='3' />
-                                <param name='site_root' value='' />
-                                <param name='name' value='EDA_15628016182280&#47;Dashboard2' />
-                                <param name='tabs' value='no' />
-                                <param name='toolbar' value='yes' />
-                                <param name='static_image'
-                                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDA_15628016182280&#47;Dashboard2&#47;1.png' />
-                                <param name='animate_transition' value='yes' />
-                                <param name='display_static_image' value='yes' />
-                                <param name='display_spinner' value='yes' />
-                                <param name='display_overlay' value='yes' />
-                                <param name='display_count' value='yes' />
-                            </object>
-                        </div>
-                        <script type='text/javascript'>                    var divElement = document.getElementById('viz1562802611620');
-                            var vizElement = divElement.getElementsByTagName('object')[0];
-                            if (divElement.offsetWidth > 800) {
-                                vizElement.style.width = '100%';
-                                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                            } else if (divElement.offsetWidth > 500) {
-                                vizElement.style.width = '100%';
-                                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                            } else {
-                                vizElement.style.width = '100%';
-                                vizElement.style.height = '727px';
-                            }
-                            var scriptElement = document.createElement('script');
-                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Kevin by Geography -->
-        <div class="section" data-anchor="secondVis">
+        <div class="section" data-anchor="geography">
             <div class="container">
                 <div class="row">
                     <div class="col">
                         <div style="height:100px; width:100%; clear:both;"></div>
-                        <h3>Annual Food Imports by Geograph</h3>
+                        <h3>Annual Food Imports by Geography</h3>
                         <p class="text-justify">
                             Globalization contributes greatly to feeding Americans. While the population has increased
                             roughly 19%, the imports have grown nearly 300%. Trading relationships with our neighbors to
@@ -237,219 +214,245 @@
 
                         <div class='tableauPlaceholder' id='viz1564244883200' style='position: relative'>
                             <noscript><a href='#'><img alt=' '
-                                                       src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;GroupProject_15627831635760&#47;TotalImportsBy&#47;1_rss.png'
-                                                       style='border: none'/></a></noscript>
+                                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;GroupProject_15627831635760&#47;TotalImportsBy&#47;1_rss.png'
+                                        style='border: none' /></a></noscript>
                             <object class='tableauViz' style='display:none;'>
-                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
-                                <param name='embed_code_version' value='3'/>
-                                <param name='site_root' value=''/>
-                                <param name='name' value='GroupProject_15627831635760&#47;TotalImportsBy'/>
-                                <param name='tabs' value='no'/>
-                                <param name='toolbar' value='yes'/>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' />
+                                <param name='name' value='GroupProject_15627831635760&#47;TotalImportsBy' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
                                 <param name='static_image'
-                                       value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;GroupProject_15627831635760&#47;TotalImportsBy&#47;1.png'/>
-                                <param name='animate_transition' value='yes'/>
-                                <param name='display_static_image' value='yes'/>
-                                <param name='display_spinner' value='yes'/>
-                                <param name='display_overlay' value='yes'/>
-                                <param name='display_count' value='yes'/>
-                                <param name='filter' value='publish=yes'/>
+                                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;GroupProject_15627831635760&#47;TotalImportsBy&#47;1.png' />
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='filter' value='publish=yes' />
                             </object>
                         </div>
                         <script type='text/javascript'>                    var divElement = document.getElementById('viz1564244883200');
-                        var vizElement = divElement.getElementsByTagName('object')[0];
-                        if (divElement.offsetWidth > 800) {
-                            vizElement.style.width = '1140px';
-                            vizElement.style.height = '627px';
-                        } else if (divElement.offsetWidth > 500) {
-                            vizElement.style.width = '1140px';
-                            vizElement.style.height = '627px';
-                        } else {
-                            vizElement.style.width = '100%';
-                            vizElement.style.height = '727px';
-                        }
-                        var scriptElement = document.createElement('script');
-                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                        vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            if (divElement.offsetWidth > 800) {
+                                vizElement.style.width = '1140px';
+                                vizElement.style.height = '627px';
+                            } else if (divElement.offsetWidth > 500) {
+                                vizElement.style.width = '1140px';
+                                vizElement.style.height = '627px';
+                            } else {
+                                vizElement.style.width = '100%';
+                                vizElement.style.height = '727px';
+                            }
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
                         <br />
                         <div class='tableauPlaceholder' id='viz1564245322850' style='position: relative'>
                             <noscript><a href='#'><img alt=' '
-                                                       src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;GroupProject_15627831635760&#47;FoodImportsbyContinentUSD&#47;1_rss.png'
-                                                       style='border: none'/></a></noscript>
+                                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;GroupProject_15627831635760&#47;FoodImportsbyContinentUSD&#47;1_rss.png'
+                                        style='border: none' /></a></noscript>
                             <object class='tableauViz' style='display:none;'>
-                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
-                                <param name='embed_code_version' value='3'/>
-                                <param name='site_root' value=''/>
-                                <param name='name' value='GroupProject_15627831635760&#47;FoodImportsbyContinentUSD'/>
-                                <param name='tabs' value='no'/>
-                                <param name='toolbar' value='yes'/>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' />
+                                <param name='name' value='GroupProject_15627831635760&#47;FoodImportsbyContinentUSD' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
                                 <param name='static_image'
-                                       value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;GroupProject_15627831635760&#47;FoodImportsbyContinentUSD&#47;1.png'/>
-                                <param name='animate_transition' value='yes'/>
-                                <param name='display_static_image' value='yes'/>
-                                <param name='display_spinner' value='yes'/>
-                                <param name='display_overlay' value='yes'/>
-                                <param name='display_count' value='yes'/>
-                                <param name='filter' value='publish=yes'/>
+                                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;GroupProject_15627831635760&#47;FoodImportsbyContinentUSD&#47;1.png' />
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='filter' value='publish=yes' />
                             </object>
                         </div>
                         <script type='text/javascript'>                    var divElement = document.getElementById('viz1564245322850');
-                        var vizElement = divElement.getElementsByTagName('object')[0];
-                        if (divElement.offsetWidth > 800) {
-                            vizElement.style.width = '1140px';
-                            vizElement.style.height = '527px';
-                        } else if (divElement.offsetWidth > 500) {
-                            vizElement.style.width = '1140px';
-                            vizElement.style.height = '527px';
-                        } else {
-                            vizElement.style.width = '100%';
-                            vizElement.style.height = '727px';
-                        }
-                        var scriptElement = document.createElement('script');
-                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                        vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            if (divElement.offsetWidth > 800) {
+                                vizElement.style.width = '1140px';
+                                vizElement.style.height = '527px';
+                            } else if (divElement.offsetWidth > 500) {
+                                vizElement.style.width = '1140px';
+                                vizElement.style.height = '527px';
+                            } else {
+                                vizElement.style.width = '100%';
+                                vizElement.style.height = '727px';
+                            }
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="section" data-anchor="thirdVis">
-            <div class="container">
-                <div class="row">
-                    <div class="col-8">
-                        <div style="height:100px; width:100%; clear:both;"></div>
-                        <h3>Food Imports Detail</h3>
-                        <p class="text-justify">
-                            Select the Year and Countries in the heatmap to get the details of the products imported. You can also select multiple countries in the heatmap and get finer details.
-                        </p>
-                        <!-- Anup Network -->
-                        <div class='tableauPlaceholder' id='viz1564206405777' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;Imports&#47;1_rss.png'
-                                                        style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-                                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                                        <param name='embed_code_version' value='3' />
-                                        <param name='site_root' value='' />
-                                        <param name='name' value='USDA_Project&#47;Imports' />
-                                        <param name='tabs' value='no' />
-                                        <param name='toolbar' value='yes' />
-                                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;Imports&#47;1.png' />
-                                        <param name='animate_transition' value='yes' />
-                                        <param name='display_static_image' value='yes' />
-                                        <param name='display_spinner' value='yes' />
-                                        <param name='display_overlay' value='yes' />
-                                        <param name='display_count' value='yes' /></object></div>
-                        <script type='text/javascript'>
-                                var divElement = document.getElementById('viz1564206405777');
-                                var vizElement = divElement.getElementsByTagName('object')[0];
-                                if (divElement.offsetWidth > 800) {
-                                        vizElement.style.width = '1200px';
-                                        vizElement.style.height = '1227px';
-                                } else if (divElement.offsetWidth > 500) {
-                                        vizElement.style.width = '1200px';
-                                        vizElement.style.height = '1227px';
-                                } else {
-                                        vizElement.style.width = '100%';
-                                        vizElement.style.height = '827px';
-                                }
-                                var scriptElement = document.createElement('script');
-                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                                vizElement.parentNode.insertBefore(scriptElement, vizElement);
-                        </script>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section" data-anchor="FourthVis">
+        <div class="section" data-anchor="details">
             <div class="container">
                 <div class="row">
                     <div class="col">
                         <div style="height:100px; width:100%; clear:both;"></div>
-                        <h3>Imports Trends</h3>
+                        <h3>Detailed Food Imports</h3>
                         <p class="text-justify">
-                            First, select the categories and years to get the product details and then select the products to get the top N countries by import values details. You can select different number for top N .
+                            In order to understand food imports in detail, select the year and countries in the heatmap
+                            to get the details of the products imported.
+                            You can also select multiple countries in the heatmap and get finer details.
+                            The current visualization shows the imports of the Fruits and Vegetables category for the
+                            year of 2018 between Mexico and Canada and compares the value of various products under this
+                            category that were imported.
+                            <br /><br />
+                            <b>NOTE : </b> To select multiple values, hold the Command key (on Mac) or Control key (on
+                            Windows)
                         </p>
-                        <!-- Anup Import Category Trend -->
-                        <div class='tableauPlaceholder' id='viz1564207249799' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;ImportsTrends&#47;1_rss.png'
-                                                        style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-                                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                                        <param name='embed_code_version' value='3' />
-                                        <param name='site_root' value='' />
-                                        <param name='name' value='USDA_Project&#47;ImportsTrends' />
-                                        <param name='tabs' value='no' />
-                                        <param name='toolbar' value='yes' />
-                                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;ImportsTrends&#47;1.png' />
-                                        <param name='animate_transition' value='yes' />
-                                        <param name='display_static_image' value='yes' />
-                                        <param name='display_spinner' value='yes' />
-                                        <param name='display_overlay' value='yes' />
-                                        <param name='display_count' value='yes' /></object></div>
+                        <!-- Anup Network -->
+                        <div class='tableauPlaceholder' id='viz1564206405777' style='position: relative'><noscript><a
+                                    href='#'><img alt=' '
+                                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;Imports&#47;1_rss.png'
+                                        style='border: none' /></a></noscript><object class='tableauViz'
+                                style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' />
+                                <param name='name' value='USDA_Project&#47;Imports' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image'
+                                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;Imports&#47;1.png' />
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' /></object></div>
                         <script type='text/javascript'>
-                                var divElement = document.getElementById('viz1564207249799');
-                                var vizElement = divElement.getElementsByTagName('object')[0];
-                                if (divElement.offsetWidth > 800) {
-                                        vizElement.style.width = '1200px';
-                                        vizElement.style.height = '1227px';
-                                } else if (divElement.offsetWidth > 500) {
-                                        vizElement.style.width = '1200px';
-                                        vizElement.style.height = '1227px';
-                                } else {
-                                        vizElement.style.width = '100%';
-                                        vizElement.style.height = '1127px';
-                                }
-                                var scriptElement = document.createElement('script');
-                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                            var divElement = document.getElementById('viz1564206405777');
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            if (divElement.offsetWidth > 800) {
+                                vizElement.style.width = '1200px';
+                                vizElement.style.height = '1227px';
+                            } else if (divElement.offsetWidth > 500) {
+                                vizElement.style.width = '1200px';
+                                vizElement.style.height = '1227px';
+                            } else {
+                                vizElement.style.width = '100%';
+                                vizElement.style.height = '827px';
+                            }
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
                         </script>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="section" data-anchor="fifthVis">
+        <div class="section" data-anchor="imports">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div style="height:100px; width:100%; clear:both;"></div>
+                        <h3>Import Trends</h3>
+                        <p class="text-justify">
+                            This visualization helps gain an understanding of how the imports have changed over the
+                            years, from 1998 - 2018.
+                            In order to use this visualization, first select the categories and years to get the product
+                            details and then select the
+                            products to get the top N countries by import values details. You can vary the value of N.
+                            <br /><br />
+                            <b>NOTE : </b> To select multiple values, hold the Command key (on Mac) or Control key (on
+                            Windows)
+                        </p>
+                        <!-- Anup Import Category Trend -->
+                        <div class='tableauPlaceholder' id='viz1564207249799' style='position: relative'><noscript><a
+                                    href='#'><img alt=' '
+                                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;ImportsTrends&#47;1_rss.png'
+                                        style='border: none' /></a></noscript><object class='tableauViz'
+                                style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' />
+                                <param name='name' value='USDA_Project&#47;ImportsTrends' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image'
+                                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;ImportsTrends&#47;1.png' />
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' /></object></div>
+                        <script type='text/javascript'>
+                            var divElement = document.getElementById('viz1564207249799');
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            if (divElement.offsetWidth > 800) {
+                                vizElement.style.width = '1200px';
+                                vizElement.style.height = '1227px';
+                            } else if (divElement.offsetWidth > 500) {
+                                vizElement.style.width = '1200px';
+                                vizElement.style.height = '1227px';
+                            } else {
+                                vizElement.style.width = '100%';
+                                vizElement.style.height = '1127px';
+                            }
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" data-anchor="forecasts">
             <div class="container">
                 <div class="row">
                     <div class="col">
                         <div style="height:100px; width:100%; clear:both;"></div>
                         <h3>Forecasts</h3>
                         <p class="text-justify">
-                            Choose different products to look at the forecasted import values for those products in the future.
+                            This visualization provides a way to look at the forecasted import values for those products in the
+                            future.
                         </p>
-                        <div class='tableauPlaceholder' id='viz1564209785121' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;ProductForecast&#47;1_rss.png'
-                                                        style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-                                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                                        <param name='embed_code_version' value='3' />
-                                        <param name='site_root' value='' />
-                                        <param name='name' value='USDA_Project&#47;ProductForecast' />
-                                        <param name='tabs' value='no' />
-                                        <param name='toolbar' value='yes' />
-                                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;ProductForecast&#47;1.png' />
-                                        <param name='animate_transition' value='yes' />
-                                        <param name='display_static_image' value='yes' />
-                                        <param name='display_spinner' value='yes' />
-                                        <param name='display_overlay' value='yes' />
-                                        <param name='display_count' value='yes' /></object></div>
+                        <div class='tableauPlaceholder' id='viz1564209785121' style='position: relative'><noscript><a
+                                    href='#'><img alt=' '
+                                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;ProductForecast&#47;1_rss.png'
+                                        style='border: none' /></a></noscript><object class='tableauViz'
+                                style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' />
+                                <param name='name' value='USDA_Project&#47;ProductForecast' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image'
+                                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;ProductForecast&#47;1.png' />
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' /></object></div>
                         <script type='text/javascript'>
-                                var divElement = document.getElementById('viz1564209785121');
-                                var vizElement = divElement.getElementsByTagName('object')[0];
-                                vizElement.style.width = '100%';
-                                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                                var scriptElement = document.createElement('script');
-                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                            var divElement = document.getElementById('viz1564209785121');
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '100%';
+                            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
                         </script>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="section" data-anchor="sixthVis" style="width: 95%;">
-
+        <div class="section" data-anchor="insights" style="width: 98%;">
             <div class="slide" data-anchor=="slide1">
                 <div class="container">
-                    <div style="height:100px; width:100%; clear:both;"></div>
-                    <h2>Insights</h2><br />
+                    <h3>Insights</h3><br />
                     <h3>2008 Subprime Mortgage Crisis</h3>
                     <div class="row">
                         <div class="col-8">
@@ -500,60 +503,60 @@
                     </div>
                 </div>
             </div>
-
             <div class="slide" data-anchor=="slide2">
                 <div class="container">
-                    <div style="height:100px; width:100%; clear:both;"></div>
-                    <h2>Insights</h2><br />
+                    <h3>Insights</h3><br />
                     <h3>Consumers Finding Alternative Goods</h3>
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-9">
                             <div class='tableauPlaceholder' id='viz1564247465715' style='position: relative'>
                                 <noscript><a href='#'><img alt=' '
-                                                           src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;X5&#47;X59CDK6FT&#47;1_rss.png'
-                                                           style='border: none'/></a></noscript>
+                                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;X5&#47;X59CDK6FT&#47;1_rss.png'
+                                            style='border: none' /></a></noscript>
                                 <object class='tableauViz' style='display:none;'>
-                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
-                                    <param name='embed_code_version' value='3'/>
-                                    <param name='path' value='shared&#47;X59CDK6FT'/>
-                                    <param name='toolbar' value='yes'/>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                    <param name='embed_code_version' value='3' />
+                                    <param name='path' value='shared&#47;X59CDK6FT' />
+                                    <param name='toolbar' value='yes' />
                                     <param name='static_image'
-                                           value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;X5&#47;X59CDK6FT&#47;1.png'/>
-                                    <param name='animate_transition' value='yes'/>
-                                    <param name='display_static_image' value='yes'/>
-                                    <param name='display_spinner' value='yes'/>
-                                    <param name='display_overlay' value='yes'/>
-                                    <param name='display_count' value='yes'/>
+                                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;X5&#47;X59CDK6FT&#47;1.png' />
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' />
                                 </object>
                             </div>
                             <script type='text/javascript'>                    var divElement = document.getElementById('viz1564247465715');
-                            var vizElement = divElement.getElementsByTagName('object')[0];
-                            if (divElement.offsetWidth > 800) {
-                                vizElement.style.width = '800px';
-                                vizElement.style.height = '527px';
-                            } else if (divElement.offsetWidth > 500) {
-                                vizElement.style.width = '800px';
-                                vizElement.style.height = '527px';
-                            } else {
-                                vizElement.style.width = '100%';
-                                vizElement.style.height = '727px';
-                            }
-                            var scriptElement = document.createElement('script');
-                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                                var vizElement = divElement.getElementsByTagName('object')[0];
+                                if (divElement.offsetWidth > 800) {
+                                    vizElement.style.width = '800px';
+                                    vizElement.style.height = '527px';
+                                } else if (divElement.offsetWidth > 500) {
+                                    vizElement.style.width = '800px';
+                                    vizElement.style.height = '527px';
+                                } else {
+                                    vizElement.style.width = '100%';
+                                    vizElement.style.height = '727px';
+                                }
+                                var scriptElement = document.createElement('script');
+                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                                vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
                         </div>
-                        <div class="col-4">
-                            After the 2008 financial crisis, imports went down in all categories.  However, wine imports, especially French wine imports were hit harder.  Since the production of wine can take years, wine producers take a risk with their forecasting models.
-                            As you can see, French wine prices dropped considerably more than Italian wine, it appears that due to financial insecurity, consumers opted the less expensive Italian wines in favor of the French.
+                        <div class="col-3">
+                            After the 2008 financial crisis, imports went down in all categories. However, wine imports,
+                            especially French wine imports were hit harder. Since the production of wine can take years,
+                            wine producers take a risk with their forecasting models.
+                            As you can see, French wine prices dropped considerably more than Italian wine, it appears
+                            that due to financial insecurity, consumers opted the less expensive Italian wines in favor
+                            of the French.
                         </div>
                     </div>
                 </div>
             </div>
-
-
             <div class="slide" data-anchor=="slide3">
                 <div class="container">
-                    <h2>Insights</h2><br />
+                    <h3>Insights</h3><br />
                     <h3>Mad Cows</h3>
                     <div class="row">
                         <div class="col-3">
@@ -608,99 +611,105 @@
                     </div>
                 </div>
             </div>
-
-<div class="slide" data-anchor=="slide4">
-    <div class="container">
-        <h2>Insights</h2><br />
-        <h3>Turmoil in Middle East</h3>
-        <div class="row">
-            <div class="col-9">
-                <div class='tableauPlaceholder' id='viz1564208828363' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;MiddleEastImportTrend&#47;1_rss.png'
-                                                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                                <param name='embed_code_version' value='3' />
-                                <param name='site_root' value='' />
-                                <param name='name' value='USDA_Project&#47;MiddleEastImportTrend' />
-                                <param name='tabs' value='no' />
-                                <param name='toolbar' value='yes' />
-                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;MiddleEastImportTrend&#47;1.png' />
-                                <param name='animate_transition' value='yes' />
-                                <param name='display_static_image' value='yes' />
-                                <param name='display_spinner' value='yes' />
-                                <param name='display_overlay' value='yes' />
-                                <param name='display_count' value='yes' /></object></div>
-                <script type='text/javascript'>
-                        var divElement = document.getElementById('viz1564208828363');
-                        var vizElement = divElement.getElementsByTagName('object')[0];
-                        vizElement.style.width = '100%';
-                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                        var scriptElement = document.createElement('script');
-                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
-                </script>
+            <div class="slide" data-anchor=="slide4">
+                <div class="container">
+                    <h3>Insights</h3><br />
+                    <h3>Turmoil in Middle East</h3>
+                    <div class="row">
+                        <div class="col-9">
+                            <div class='tableauPlaceholder' id='viz1564208828363' style='position: relative'>
+                                <noscript><a href='#'><img alt=' '
+                                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;MiddleEastImportTrend&#47;1_rss.png'
+                                            style='border: none' /></a></noscript><object class='tableauViz'
+                                    style='display:none;'>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                    <param name='embed_code_version' value='3' />
+                                    <param name='site_root' value='' />
+                                    <param name='name' value='USDA_Project&#47;MiddleEastImportTrend' />
+                                    <param name='tabs' value='no' />
+                                    <param name='toolbar' value='yes' />
+                                    <param name='static_image'
+                                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;MiddleEastImportTrend&#47;1.png' />
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' /></object></div>
+                            <script type='text/javascript'>
+                                var divElement = document.getElementById('viz1564208828363');
+                                var vizElement = divElement.getElementsByTagName('object')[0];
+                                vizElement.style.width = '100%';
+                                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                                var scriptElement = document.createElement('script');
+                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                            </script>
+                        </div>
+                        <div class="col-3">
+                            For the past 2 decades the Middle East has been under turmoil. We expected that the imports
+                            from middle east would have seen a drastic impact. But our hypothesis has been proven wrong
+                            as along with other continents the Middle East has also seen significant increase in export
+                            of food to the USA.
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-3">
-                For the past 2 decades the Middle East has been under turmoil. We expected that the imports from middle east would have seen a drastic impact. But our hypothesis has been proven wrong as along with other continents the Middle East has also seen significant increase in export of food to the USA.
+            <div class="slide" data-anchor=="slide5">
+                <div class="container">
+                    <h3>Insights</h3><br />
+                    <h3>Effect of Fair and Equitable Tobacco Reform Act 2004 </h3>
+                    <div class="row">
+                        <div class="col-3">
+                            In the year 2004 George Bush's govt removed the quota of production of tobacco on farmers
+                            and de-regulated the tobaco production. It was thought that this will make the US tobacco
+                            competitive to other country's tobacco prices and would result in less imports and more of
+                            job creation in USA. We looked at 2004 , 2005 and 2006 data for tobacco imports .
+                            We see that in year 2005 the imports went down but then again increased in 2006. Which
+                            implies that in tobacco its not only about price.
+                            Its very difficult for the manufacturers of cigarrete to change the brand for a smoker even
+                            if he/she is offered cheaper option.
+                        </div>
+                        <div class="col-9">
+                            <div class='tableauPlaceholder' id='viz1564209609914' style='position: relative'>
+                                <noscript><a href='#'><img alt=' '
+                                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;TrendofTobaccoImports&#47;1_rss.png'
+                                            style='border: none' /></a></noscript><object class='tableauViz'
+                                    style='display:none;'>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                    <param name='embed_code_version' value='3' />
+                                    <param name='site_root' value='' />
+                                    <param name='name' value='USDA_Project&#47;TrendofTobaccoImports' />
+                                    <param name='tabs' value='no' />
+                                    <param name='toolbar' value='yes' />
+                                    <param name='static_image'
+                                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;TrendofTobaccoImports&#47;1.png' />
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' /></object></div>
+                            <script type='text/javascript'>
+                                var divElement = document.getElementById('viz1564209609914');
+                                var vizElement = divElement.getElementsByTagName('object')[0];
+                                vizElement.style.width = '100%';
+                                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                                var scriptElement = document.createElement('script');
+                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                            </script>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="slide" data-anchor=="slide5">
-    <div class="container">
-        <h2>Insights</h2><br />
-        <h3>Effect of Fair and Equitable Tobacco Reform Act 2004 </h3>
-        <div class="row">
-           <div class="col-3">
-               In the year 2004 George Bush's govt removed the quota of production of tobacco on farmers and de-regulated the tobaco production. It was thought that this will make the US tobacco competitive to other country's tobacco prices and would result in less imports and more of job creation in USA. We looked at 2004 , 2005 and 2006 data for tobacco imports .
-               We see that in year 2005 the imports went down but then again increased in 2006. Which implies that in tobacco its not only about price.
-               Its very difficult for the manufacturers of cigarrete to change the brand for a smoker even if he/she is offered cheaper option.
-           </div>
-            <div class="col-9">
-                <div class='tableauPlaceholder' id='viz1564209609914' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;TrendofTobaccoImports&#47;1_rss.png'
-                                                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                                <param name='embed_code_version' value='3' />
-                                <param name='site_root' value='' />
-                                <param name='name' value='USDA_Project&#47;TrendofTobaccoImports' />
-                                <param name='tabs' value='no' />
-                                <param name='toolbar' value='yes' />
-                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USDA_Project&#47;TrendofTobaccoImports&#47;1.png' />
-                                <param name='animate_transition' value='yes' />
-                                <param name='display_static_image' value='yes' />
-                                <param name='display_spinner' value='yes' />
-                                <param name='display_overlay' value='yes' />
-                                <param name='display_count' value='yes' /></object></div>
-                <script type='text/javascript'>
-                        var divElement = document.getElementById('viz1564209609914');
-                        var vizElement = divElement.getElementsByTagName('object')[0];
-                        vizElement.style.width = '100%';
-                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                        var scriptElement = document.createElement('script');
-                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
-                </script>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-
         </div>
     </div>
     <script type="text/javascript" src="js/fullpage.js"></script>
-    <!-- <script type="text/javascript">
-	var myFullpage = new fullpage('#fullpage', {
-		sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
-	});
-</script> -->
     <script type='text/javascript'>
         var myFullpage = new fullpage('#fullpage', {
             //options here
             lazyLoad: true,
-            anchors: ['header', 'data', 'overview', 'secondVis', 'thirdVis', 'fourthVis'],
+            anchors: ['header', 'data', 'overview', 'geography', 'details', 'imports', 'forecasts', 'insights'],
             menu: '#menu',
             autoScrolling: false,
             scrollHorizontally: true,
