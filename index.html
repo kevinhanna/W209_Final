@@ -6,13 +6,10 @@
     <title>How have Food Imports to the U.S. changed over time</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/fullpage.css"/>
-    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/fullpage.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/custom.css"/>
 
     <!-- Fullpage -->
-    <script src="vendors/easings.min.js"></script>
-    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
@@ -81,6 +78,18 @@
                     <li>Kevin Hanna</li>
                     <li>Anup Jha</li>
                 </ul>
+            </div>
+
+            <div class="col mt-5">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">View Video Instructions</button>
+
+                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <iframe width="1000" height="800" src="https://www.youtube.com/embed/2c3qIMcC5K4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -731,7 +740,7 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="static/js/fullpage.js"></script>
 <script type='text/javascript'>
     var myFullpage = new fullpage('#fullpage', {
         //options here
